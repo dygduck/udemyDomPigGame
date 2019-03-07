@@ -34,25 +34,7 @@ document.querySelector('.btn-roll').addEventListener('click', function() {
         } else {
             //next player
             nextPlayer();
-        }
-
-        /*
-        if(dice === 6 && lastDice === 6) {
-            //player looses all of the score
-            scores[activePlayer] = 0;
-            document.querySelector('#score-' + activePlayer).textContent = '0';
-            nextPlayer();
-        } else if(dice !== 1) {
-            //add score
-            roundScore += dice;
-            document.querySelector('#current-' + activePlayer).textContent = roundScore;
-
-        } else {
-            //next player
-            nextPlayer();
-        }
-        lastDice = dice;
-        */   
+        } 
     }
 });
 
